@@ -1,0 +1,20 @@
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    -moz-box-shadow: 0 0 5px 5px #E2E7FD;
+    -webkit-box-shadow: 0 0 5px 5px#E2E7FD;
+    box-shadow: 0 0 5px 5px #E2E7FD;
+    border-radius: 3px;
+}
+
+th {
+    background-color: #061453;
+    height: 72px;
+    vertical-align: middle;
+    color: white;
+}
+
+tr {
+    border-bottom: 1px solid #E2E7FD;
+    padding-left: 16px;
+}
