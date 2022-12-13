@@ -7,6 +7,7 @@ import { TableInBootstrapComponent } from './table-in-bootstrap/table-in-bootstr
 import { TableNameComponent } from './table-name/table-name.component';
 import { TableDateComponent } from './table-date/table-date.component';
 import { TableStatusComponent } from './table-status/table-status.component';
+import { TableMobileComponent } from './table-mobile/table-mobile.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TableStatusComponent } from './table-status/table-status.component';
     TableInBootstrapComponent,
     TableNameComponent,
     TableDateComponent,
-    TableStatusComponent
+    TableStatusComponent,
+    TableMobileComponent
   ],
   imports: [
     BrowserModule,

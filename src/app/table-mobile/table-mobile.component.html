@@ -1,0 +1,31 @@
+<div>
+    <div class="row p-2" *ngFor="let document of documentList" (click)="onClickOfTable(document)">
+        <div class="col-1 align-self-end g-0">
+            <img style="width: 48px; border-radius: 50%; border: 0.5px solid #9dbbcf; padding: 8px"
+                src="../../assets/zipIcon.png">
+        </div>
+        <div class="col-11 ps-4">
+            <div style=" border-bottom: 0.5px solid #9dbbcf; padding-bottom: 8px;">
+                <div class="col-12">
+                    {{document.doctype}}
+                </div>
+                <div class="col-12">
+                    {{document.description}}
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6 g-0">
+                            {{document.createdOn}}
+                        </div>
+                        <div class="col-6 g-0">
+                            <div class="d-flex justify-content-end">
+                                <app-table-status [status]="document.status"></app-table-status>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
